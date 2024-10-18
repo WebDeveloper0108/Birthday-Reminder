@@ -1,8 +1,59 @@
-# React + Vite
+# Birthday Reminder App
+A simple and interactive birthday reminder app built with modern web technologies, allowing users to manage and keep track of important birthday dates.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- View a list of upcoming birthdays
+- Responsive design for mobile and desktop
+- Fast and lightweight build using Vite
+- Simple, clean UI with custom CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/[repository-name].git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd [repository-name]
+   ```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Run the project:**
+   ```bash
+   npm run dev
+   ```
+
+## File Structure
+
+```plaintext
+.
+├── index.html           # Main HTML file
+├── package.json         # Project metadata and dependencies
+├── vite.config.js       # Vite configuration
+├── eslint.config.js     # ESLint configuration
+├── src/
+│   ├── App.css          # Main app styles
+│   ├── index.css        # Global styles
+│   ├── data.js          # JavaScript for birthday data
+└── README.md            # Project documentation
+```
+
+## Technologies Used
+
+- **Vite**: For fast and optimized builds
+- **ESLint**: Ensures clean and consistent code
+- **JavaScript**: Handles logic for birthday reminders
+- **CSS**: Custom styling for the app
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+This template provides a good starting point for your "Birthday Buddy" project repository. Let me know if you'd like any changes!
